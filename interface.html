@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<!--
+  User interface for AI sentiment analysis project
+-->
+
+<html>
+	<head>
+		<title>AI Sentiment Analysis</title>
+		<link href="AI_style.css" type="text/css" rel="stylesheet" />
+        <script src="AI_js.js"></script>
+	</head>
+	<body>
+    <h1>AI Sentiment Analysis</h1>
+    <p class="subtitle">
+      Analyse the market sentiment of an inputting news article
+    </p>
+    <p class="subtitle">
+      Created by: Simon Cobb, Amulya Maramreddy, Filip Batur Stipic, Bokun Wei
+    </p>
+    <hr />
+
+
+
+    <p id="results"></p>
+
+
+
+    <form id="input-form">
+	    <h2>Input the company name and news article</h2>
+
+      <fieldset>
+			  <legend>Input</legend>
+              <h3>Company Name:</h3>
+        <p id = "companyname">
+			   <input type="text" name="companyname" />
+        </p>
+
+        <h3>Date:</h3>
+        <p id = "date">
+			  <input type="text" name="date" />
+        </p>
+
+			<div>
+        <button id="submit">Submit</button>
+			</div>
+    </form>
+	</body>
+</html>

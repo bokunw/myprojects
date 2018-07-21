@@ -1,0 +1,66 @@
+/*
+  CSE 154
+  Lab 9 Regex and Form Validation
+  Exercise 2: Epizzeria
+  Provided CSS
+*/
+html {
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/c/cc/Forex_-_14600958045.jpg");
+  background-repeat: repeat-x repeat-y;
+}
+
+body {
+  border-radius: 5px;
+  box-shadow: 3px 5px 5px #000;
+  font-family: "Century Gothic", Helvetica, Arial, sans-serif;
+  width: 60%;
+  margin: 30px auto;
+  background-color: #FFF;
+  padding: 20px;
+}
+
+h1 {
+  text-transform: uppercase;
+}
+
+h1, .subtitle {
+  text-align: center;
+}
+
+.subtitle {
+  font-style: italic;
+}
+
+fieldset {
+  padding: 10px;
+  margin-top: 10px;
+}
+
+fieldset label {
+  text-align: center;
+}
+
+fieldset legend {
+  font-weight: bold;
+}
+
+#order-form {
+  margin: auto 50px;
+}
+
+#submit {
+  margin: 10px auto;
+  display: block;
+  width: 200px;
+  padding: 5px;
+  font-size: 14pt;
+}
+
+
+h3, #article, #companyname, #date {
+    text-align: center;
+}
+
+.hidden {
+  display: none;
+}
